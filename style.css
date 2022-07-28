@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(253, 253, 253);
+  background: radial-gradient(#222, rgb(52, 49, 49));
+  overflow: hidden;
+}
+
+.scene {
+  background: rgb(125, 123, 123);
+  bottom: 0;
+  box-shadow:
+    0 0 0 10px rgb(22, 21, 21),
+    0 30px 30px -20px #000
+  ;
+  height: 80vmin;
+  left: 0;
+  max-height: 400px;
+  max-width: 400px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80vmin;
+}
+
+canvas {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
